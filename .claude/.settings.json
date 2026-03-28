@@ -1,0 +1,16 @@
+{
+    "model": "claude-opus-4-6",
+    "thinking": true,
+    "outputStyle": "explanatory",
+    "permissions": {
+      "allow": [
+        "Bash(pip install *)",
+        "Bash(python *)",
+        "Bash(python3 *)",
+        "Edit(*.py)",
+        "Edit(requirements.txt)",
+        "Edit(CLAUDE.md)"
+      ],
+      "deny": []
+    }
+  }
